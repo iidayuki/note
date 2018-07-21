@@ -34,10 +34,10 @@ RaspberryPiにマイクとスピーカーを接続してAmazon Echoを再現
       cd ~/Desktop/alexa-avs-sample-app
       . automated_install.sh
       
-   以下の質問に答える
-   
-   
-   
+   * いくつかの簡単な質問に答える　　
+   * 基本y(yes)で答える
+   * 言語は**ja-JP** を選択
+   * 音声の出力は**3.5mm jack** を選択
     
 * 5.Webサービス、サンプルアプリケーション、Wake wordエンジンの実行
 　ターミナルを3つ起動し、以下の順に実行  
