@@ -52,7 +52,10 @@ RaspberryPiにマイクとスピーカーを接続してAmazon Echoを再現
       AVS(Alexa Voice Service)と通信するサンプルアプリケーションの実行
       
           cd ~/Desktop/alexa-avs-sample-app/samples  
-          cd javaclient && mvn exec:exec  
+          cd javaclient && mvn exec:exec
+      
+   以下の手順で
+      https://localhost:3000/provision/bd617e5532147943c4bf9ab8
     
     * 5-3
       "Alexa"というフレーズで起動させるために次のWake Wordエンジンのどちらかを実行
