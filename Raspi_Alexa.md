@@ -19,7 +19,7 @@ RaspberryPiにマイクとスピーカーを接続してAmazon Echoを再現
 　作業を楽にするためにVNCを設定 
   ~~Raspbianのセットアップは[ここに](  )~~
   
-* 2.インストールスクリプトと設定ファイルのダウンロード  
+* 2.[alexa-avs-sample-app](https://github.com/alexa/alexa-avs-sample-app)をクローン 
 
       cd ~/Desktop/
       git clone https://github.com/alexa/alexa-avs-sample-app.git
@@ -54,8 +54,21 @@ RaspberryPiにマイクとスピーカーを接続してAmazon Echoを再現
           cd ~/Desktop/alexa-avs-sample-app/samples  
           cd javaclient && mvn exec:exec
       
-   以下の手順で
-      https://localhost:3000/provision/bd617e5532147943c4bf9ab8
+       * デバイスの登録
+       　![223](https://user-images.githubusercontent.com/27679709/43039315-95a27ae8-8d65-11e8-9dde-5927d78c1275.png)
+         「はい」をクリック
+       
+       * [詳細設定] -> [localhostにアクセスする(安全ではありません)]をクリック
+         ![225](https://user-images.githubusercontent.com/27679709/43039336-28246e9e-8d66-11e8-9ae0-51a99bab3ed5.png)
+         ![226](https://user-images.githubusercontent.com/27679709/43039339-2ff2b37e-8d66-11e8-9890-37ca28c69c0e.png)
+       
+       * ログイン
+         ![227](https://user-images.githubusercontent.com/27679709/43039341-37511bb0-8d66-11e8-9db4-074a5fbfa0ea.png)
+
+       * デバイストークンが準備されていると表示されたら閉じ、「OK」ボタンをクリック
+         ![228](https://user-images.githubusercontent.com/27679709/43039342-446afc58-8d66-11e8-83a5-a6c89aedaa5e.png)
+         ![224](https://user-images.githubusercontent.com/27679709/43039343-49df12fa-8d66-11e8-9071-50b8711fa2f0.png)
+         
     
     * 5-3
       "Alexa"というフレーズで起動させるために次のWake Wordエンジンのどちらかを実行
