@@ -25,8 +25,7 @@
          http://localhost:3000/authresponse  
          https://localhost:3000/authresponse
        
-     ![237](https://user-images.githubusercontent.com/27679709/43043464-44f0dd46-8dcf-11e8-9bbd-ecbc7d97e28c.png)  
-     
+       ![237](https://user-images.githubusercontent.com/27679709/43043464-44f0dd46-8dcf-11e8-9bbd-ecbc7d97e28c.png)  
 最後に更新  
     
 **製品ID(ProductID)**、**クライアントID**、**クライアントのシークレット** の3つは、後ほど使用するので、控えてあるか確認
