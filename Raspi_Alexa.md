@@ -1,4 +1,4 @@
-# RaspberryPiでalexaを動かす
+# RaspberryPiでAlexaを動かす
 RaspberryPiにマイクとスピーカーを接続してAmazon Echoを再現  
 事前にAmazon Developerのアカウントに登録し、デバイスとセキュリティプロファイルを作成する。  
 アカウント登録の説明・製品登録は[ここに]( https://github.com/iidayuki/note/blob/master/AmazonDevepoler.md )
