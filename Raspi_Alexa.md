@@ -8,7 +8,7 @@ RaspberryPiにマイクとスピーカーを接続してAmazon Echoを再現
 
 ## Requirement
 * Raspberry Pi 3 Model B
-* TOSHIBA microSWD 16GB
+* TOSHIBA microSD 16GB
 * Raspbian - NOOBS v2.8.1
 * BU-Bauty USBマイク
 * SONY製 スピーカー
