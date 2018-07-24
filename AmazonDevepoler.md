@@ -1,4 +1,4 @@
-# Amazon Developerのアカウント登録から製品登録
+# Amazon Developerのアカウント登録から製品登録まで
 [Amazon Developer](https://developer.amazon.com/ja/)
 
 ### 1.アカウントを作成する
